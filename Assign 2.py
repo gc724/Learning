@@ -14,4 +14,9 @@ c=int(input("Enter step:  ")) #Enter 1
 
 d = list(range(a, b, c))
 #print(d)
-print(f"The sum of numbers from {a} to {b-1} is {sum(d)}")
+#print(f"The sum of numbers from {a} to {b-1} is {sum(d)}")
+
+sum=0
+for i in d: 
+    sum += i 
+print(f"The sum of numbers from {a} to {b-1} is {sum}") 
